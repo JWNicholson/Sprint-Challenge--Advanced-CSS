@@ -100,18 +100,12 @@
       
     }// end walk-img
 
-    .header-image{
-      .flex-display(row, center,center);
-  }
-
-   {
-    display: none;
-  }
-
   @media @phone{
+    flex-direction: column;
     margin-top: 0;
+    padding: 2%;
   }
- 
+ }
 }// home
 
 
@@ -133,21 +127,10 @@
     width: 100%;
   }
 
-  section.walk{
-    padding: 12px;
-    flex-direction: column;
-  }
-
+  
   .walk-text{
     order:2;
     width: 100% !important; 
   }
 
-  .container.home{
-    margin: 2%;
-  }
-
-header.intro.header-img img{
-  display: none;
-}
 }// end @phone
