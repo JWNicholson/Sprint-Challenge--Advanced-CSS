@@ -15,11 +15,14 @@ nav.top-nav{
   }
 
   .links{
-    .flex-display(row, space-around, center);
+    .flex-display(row, space-between, center);
     width: 50%;
     margin: 1rem;
 
-   
+    @media @phone{
+        width:100%;
+      justify-content: space-around;
+    }
   }// links
 
   .links a{
@@ -27,6 +30,10 @@ nav.top-nav{
       color:@river-bend;
       text-decoration: none;
       margin: 2%;
+
+     @media @phone{
+       font-size: 1.2rem;
+     }
      }// links a
 
    
