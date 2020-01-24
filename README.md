@@ -48,7 +48,7 @@ his sets the original font-size to 62.5% of the browser's default size. If the b
 
 4. How would you describe preprocessing to someone new to CSS?
 
-CSS preprocessing generates css for you, based on how you use the program's syntax. You can write or change styles in one spot instead of searching through lines of css to change every occurance.
+CSS preprocessing generates css for you based on how you use the program's syntax. You can write or change styles in one spot instead of searching through lines of css to change every occurance.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
