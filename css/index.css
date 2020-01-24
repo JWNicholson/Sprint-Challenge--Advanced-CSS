@@ -304,6 +304,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .walk div.main-wrapper > div.container.home > header-intro > div.header-img#home-header-img {
+  display: none;
+}
 @media ( max-width: 500px ) {
   .home .walk {
     margin-top: 0;
