@@ -1,1 +1,18 @@
 // Mixins Here
+
+
+
+.cta-btn(@background-color, @width,@height, @font-color){
+    background-color: @background-color;
+    width:@width;
+    color:@font-color;
+    height: @height;
+    border-radius:10px;
+}
+  
+.flex-display(@direction, @justify, @alignment){
+    display:flex;
+    flex-direction:@direction;
+    justify-content: @justify;
+    align-items: @alignment;
+  }
